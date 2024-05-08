@@ -10,11 +10,26 @@ Type inference occurs during runtime
 - **`predicate`**: denotes relationships between objects in the world, composed of a functor and its arity
 - **`functor`**: the defined name of the predicate, which indicates the type of relationship
 - **`arity`**: the number of arguments a predicate takes
-- **`clause`**: either a fact or a rule, clauses define the logic and data upon which queries operate
+- **`clause`**: either a fact, rule, or question. clauses define the logic and data upon which queries operate
 - **`fact`**: a rule without a condition
 - **`rule`**: a clause that defines a relation or predicate using conditions
 - **`goal`**: a subquery, combined with conjunctions (,) and disjunctions(;) to form larger queries
 - **`atom`**: a constant (starts with lowercase or wrapped in single quotes)
 - **`variable`**: (starts with an uppercase letter or underscore)
 - **`query`**: (denoted by prefixing the goal with the ?- symbol)
+
+### Syntax
+
+- **`,`**: denotes AND
+- **`;`**: denotes OR
+- **`:-`**: denotes IF-THEN
+- **`=`**: denotes unification
+- **`=`**: denotes unification
+- **`!`**: the cut operator, used to prune the search tree and improve efficiency
+
+
+
+
+
+
 
