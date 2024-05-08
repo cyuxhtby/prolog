@@ -22,7 +22,7 @@ Type inference occurs during runtime
 
 ### Concepts
 
-**`back tracking`**: the process of trying to re-satisfy the previously satisfied goal, it allows for a depth-first search and finds all possible solutions to a query
+**back tracking**: the process of trying to re-satisfy the previously satisfied goal, it allows for a depth-first search and finds all possible solutions to a query
 
 
 ### Syntax
